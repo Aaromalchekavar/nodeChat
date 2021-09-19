@@ -1,4 +1,4 @@
-const socket = io.connect('https://c6b4-103-70-197-94.ngrok.io/')
+const socket = io.connect('https://chatinger.herokuapp.com/')
 
 const msg = document.getElementById('message')
 const hndle = document.getElementById('handle')

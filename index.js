@@ -8,7 +8,7 @@ const server = app.listen(port,()=>{
     console.log(`app is listening at http://localhost:${port}`)
 })
 
-const baseurl = `https://c6b4-103-70-197-94.ngrok.io/`
+const baseurl = `https://chatinger.herokuapp.com/`
 app.use(express.static('public'))
 //open id connect
 app.use(
